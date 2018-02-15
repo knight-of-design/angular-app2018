@@ -6,6 +6,7 @@ import { StatusComponent } from './status/status.component';
   imports: [
     CommonModule
   ],
-  declarations: [StatusComponent]
+  declarations: [StatusComponent],
+  exports: [StatusComponent]
 })
 export class ProfileModule { }
